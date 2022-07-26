@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="657.0" prefWidth="1140.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sceneUser.BarchartLocalisationController">
+   <children>
+      <BarChart fx:id="barLocalisation" layoutY="6.0" prefHeight="612.0" prefWidth="1122.0">
+        <xAxis>
+          <NumberAxis fx:id="y" label="Nombre d'étudiant" side="LEFT" />
+        </xAxis>
+        <yAxis>
+          <CategoryAxis side="BOTTOM" fx:id="x" />
+        </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>

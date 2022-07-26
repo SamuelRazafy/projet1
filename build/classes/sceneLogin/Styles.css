@@ -1,0 +1,60 @@
+
+/* 
+    Created on : 25 avr. 2022, 17:01:24
+    Author     : MAMY
+*/
+
+.parent{
+    -fx-background-color: transparent;
+}
+
+.fond{
+    -fx-background-color: #048B9A;
+}
+
+.trans_btn_sinscrire{
+    -fx-background-color: transparent;
+    -fx-backgroud-raduis:5px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius:8px;
+    -fx-border-width: 1px;
+    -fx-text-fill: whitesmoke;
+}
+.trans_btn_sinscrire:hover{
+    
+     -fx-border-radius:8px;
+    -fx-border-color: #ffffff;
+}
+.fondInsci{
+    -fx-background-color: #ffffff;
+    
+}
+
+.panel_bleu{
+/*     -fx-background-color: #001219;*/
+    -fx-background-color: #ffffff;
+    -fx-border-color: #001219;
+    -fx-border-radius:5px;
+    -fx-border-width: 1px;
+}
+.tf_box{
+    -fx-background-color: transparent;
+    -fx-border-color: #048B9A;
+    -fx-border-width: 0px 0px 1px 0px;
+}
+.tf{
+    -fx-background-color: transparent;
+}
+.bleu_btn{
+    -fx-background-color: #2196f3;
+    -fx-border-radius:8px;
+    -fx-text-fill: #ffffff;
+}
+.bleu_btn:hover{
+     -fx-background-color: rgb(0,124,138);
+}
+.button:hover{
+    -fx-cursor: hand;
+    
+    
+}

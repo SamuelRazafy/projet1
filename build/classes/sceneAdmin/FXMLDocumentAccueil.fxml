@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="1000.0" prefWidth="2000.0" styleClass="bdr_AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sceneAdmin.FXMLDocumentControllerAccueil">
+    <children>
+      <BorderPane fx:id="mainPane" prefHeight="1000.0" prefWidth="2000.0" stylesheets="@Style.css">
+         <left>
+            <Pane prefHeight="658.0" prefWidth="200.0" style="-fx-background-color: #048B9A;" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox layoutX="25.0" layoutY="64.0" prefHeight="253.0" prefWidth="132.0" spacing="20.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#handleButtonAcceuilAction" prefHeight="31.0" prefWidth="138.0" styleClass="bt_menu" text="Accueil" />
+                        <Button mnemonicParsing="false" onAction="#handleButtonFormulaireAction" prefHeight="31.0" prefWidth="138.0" styleClass="bt_menu" text="Formulaire" />
+                        <Button mnemonicParsing="false" onAction="#handleButtonStatistiqueAction" prefHeight="31.0" prefWidth="138.0" styleClass="bt_menu" text="Statistique" />
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+         </left>
+         <top>
+            <Pane prefHeight="111.0" prefWidth="1120.0" style="-fx-background-color: #156064;" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="txtRechercher" layoutX="395.0" layoutY="54.0" prefHeight="31.0" prefWidth="444.0" />
+                  <Button fx:id="btnRechercher" layoutX="857.0" layoutY="56.0" mnemonicParsing="false" onAction="#actionRechercher" onMouseClicked="#actionRechercher" styleClass="bt_recherche" text="Rechercher">
+                     <cursor>
+                        
+                     </cursor></Button>
+                  <ImageView fitHeight="201.0" fitWidth="261.0" layoutX="-40.0" layoutY="-38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@MicrosoftTeams-image.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="151.0" layoutY="9.0" text="tudictionary" textFill="WHITE">
+                     <font>
+                        <Font size="37.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="124.0" layoutY="3.0" text="S" textFill="WHITE">
+                     <font>
+                        <Font size="55.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+         </top>
+         <center>
+            <AnchorPane fx:id="anchorpane" prefHeight="750.0" prefWidth="1110.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TableView fx:id="tableAccueilAdmin" layoutX="120.0" layoutY="9.0" prefHeight="566.0" prefWidth="1481.0" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="70.0">
+                    <columns>
+                       <TableColumn fx:id="colNom" prefWidth="121.0" resizable="false" text="Nom" />
+                       <TableColumn fx:id="colPrenom" prefWidth="131.0" resizable="false" text="Prenom" />
+                       <TableColumn fx:id="colGenre" prefWidth="100.0" resizable="false" text="Genre" />
+                       <TableColumn fx:id="colLocalisation" prefWidth="163.0" resizable="false" text="Localisation" />
+                       <TableColumn fx:id="colEmail" prefWidth="139.0" resizable="false" text="Email" />
+                       <TableColumn fx:id="colContact" minWidth="0.0" prefWidth="142.0" resizable="false" text="Contact" />
+                       <TableColumn fx:id="colRentreeUniversitaire" maxWidth="426.0" prefWidth="128.0" resizable="false" text="Rentrée Universitaire" />
+                        <TableColumn fx:id="colFormation" maxWidth="426.0" prefWidth="367.0" resizable="false" text="Formation" />
+                        <TableColumn fx:id="colSecteur" maxWidth="426.0" prefWidth="187.0" resizable="false" text="Secteur" />
+                    </columns>
+                  </TableView>
+                  <Button fx:id="btnSupprimer" layoutX="1484.0" layoutY="651.0" mnemonicParsing="false" onAction="#actionSupprimer" prefWidth="116.0" text="Supprimer" />
+                  <Button fx:id="btnModifier1" layoutX="1355.0" layoutY="651.0" mnemonicParsing="false" onAction="#actionModifier" prefWidth="116.0" text="Modifier" />
+               </children>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

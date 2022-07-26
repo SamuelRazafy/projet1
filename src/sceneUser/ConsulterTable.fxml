@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="718.0" prefWidth="1427.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="1430.0" style="-fx-background-color: #048B9A;">
+         <children>
+            <Label layoutX="206.0" layoutY="62.0" text="Consulter tableau" textFill="WHITE">
+               <font>
+                  <Font size="49.0" />
+               </font>
+            </Label>
+            <Label layoutX="238.0" layoutY="125.0" text="Vous pouvez consulter le tableau toute entière" textFill="WHITE">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TableView fx:id="tableMain" layoutX="14.0" layoutY="226.0" prefHeight="467.0" prefWidth="1396.0">
+         <columns>
+            <TableColumn fx:id="tableNom" prefWidth="215.0" text="Nom" />
+            <TableColumn fx:id="TablePrenom" prefWidth="182.0" text="Prenom" />
+            <TableColumn fx:id="tableGenre" prefWidth="141.0" text="Genre" />
+            <TableColumn fx:id="tableLocalisation" prefWidth="169.0" text="Localisation" />
+            <TableColumn fx:id="tableFormation" prefWidth="171.0" text="Formation" />
+            <TableColumn fx:id="tableSecteurs" minWidth="0.0" prefWidth="169.0" text="Secteur" />
+            <TableColumn fx:id="tablePeriode" maxWidth="426.0" prefWidth="145.0" text="Periode de Rentrée" />
+         </columns>
+      </TableView>
+      <ImageView fitHeight="240.0" fitWidth="339.0" layoutX="-67.0" layoutY="-43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MicrosoftTeams-image.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="188.0" layoutY="27.0" text="tudictionary" textFill="WHITE">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="161.0" layoutY="21.0" text="S" textFill="WHITE">
+         <font>
+            <Font size="55.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

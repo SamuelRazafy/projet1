@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="718.0" prefWidth="1580.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="1580.0" style="-fx-background-color: #048B9A;">
+         <children>
+            <Label layoutX="202.0" layoutY="71.0" text="Contactez-Nous" textFill="WHITE">
+               <font>
+                  <Font size="49.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fitHeight="240.0" fitWidth="339.0" layoutX="-57.0" layoutY="-38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MicrosoftTeams-image.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="198.0" layoutY="32.0" text="tudictionary" textFill="WHITE">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="171.0" layoutY="26.0" text="S" textFill="WHITE">
+         <font>
+            <Font size="55.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="289.0" fitWidth="458.0" layoutX="308.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@istockphoto-1165665432-612x612.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="658.0" layoutY="321.0" prefHeight="200.0" prefWidth="288.0" style="-fx-background-color: #048B9A;">
+         <children>
+            <Label layoutX="17.0" layoutY="61.0" text="Contactez nous sur mail :" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="35.0" layoutY="97.0" text="studictionary@gmail.com" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+         </children>
+      </Pane>
+      <Label layoutX="1085.0" layoutY="278.0" />
+      <Label layoutX="1033.0" layoutY="335.0" prefHeight="43.0" prefWidth="288.0" text="034  85 453 62" textAlignment="JUSTIFY" textOverrun="CLIP">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="1032.0" layoutY="402.0" prefHeight="43.0" prefWidth="288.0" text="Faravohitra " textAlignment="JUSTIFY" textOverrun="CLIP">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <SVGPath content="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" layoutX="984.0" layoutY="348.0" rotate="14.0" scaleX="2.0" scaleY="2.0" />
+      <SVGPath content="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" layoutX="984.0" layoutY="418.0" scaleX="2.0" scaleY="2.0" />
+      <SVGPath content="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5zM16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" layoutX="983.0" layoutY="477.0" scaleX="2.0" scaleY="2.0" />
+      <Label layoutX="1033.0" layoutY="459.0" prefHeight="43.0" prefWidth="288.0" text="Lundi à Vendredi  : 8h à  16h" textAlignment="JUSTIFY" textOverrun="CLIP">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

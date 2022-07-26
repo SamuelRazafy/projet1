@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 avr. 2022, 10:19:03
+    Author     : Inclusiv Academy 7
+*/
+
+.bt_menu{
+    -fx-background-color: transparent;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-text-fill: #dddddd;
+}
+
+.bt_menu:hover{
+    -fx-text-fill: #ffffff;
+    
+}
+
+.bt_recherche{
+    -fx-background-color: transparent;
+    -fx-backgroud-raduis:5px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius:8px;
+    -fx-border-width: 1px;
+    -fx-text-fill: whitesmoke;
+}
+.bdr_AnchorPane{
+    -fx-border-color: #cccccc;
+    -fx-border-radius:2px;
+    -fx-border-width: 1px;
+}
+.panePie{
+    -fx-border-color: #cccccc;
+    -fx-border-radius:8px;
+    -fx-border-width: 2px;
+}
+.paneBar{
+    -fx-border-color: #cccccc;
+    -fx-border-radius:8px;
+    -fx-border-width: 2px;
+}
+
+.button:hover{
+    -fx-cursor: hand;
+    
+    
+}
+.bt_recherche:hover{
+    
+    -fx-border-radius:8px;
+    -fx-border-color: #ffffff;
+}
+
